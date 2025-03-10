@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	 <test parallel="methods" thread-count="2" name="Test">
+	<classes>
+	<class name="com.testRunnersTestNG.TestNGTest"></class>
+	<class name="stepDefinitions.A001_landing_page"></class>
+	<class name="stepDefinitions.test"></class>
+	<!-- If you need to run the Testng test case need to add it file here (Duplicate will not run)-->
+	</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
